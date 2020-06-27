@@ -141,8 +141,10 @@ body{
         width: 30em;
         
     }
-
     #search-bar{
+        font-size: 10px;
+    }
+    .search-button{
         font-size: 10px;
     }
 
@@ -151,6 +153,9 @@ body{
 
     .search-area{
         width: 22em;
+    }
+    .search-button{
+        width: 5em;
     }
     .drink-name{
         font-size: 1em;
@@ -193,6 +198,9 @@ body{
     }
     .copyright h2{
         font-size: xx-small;
+    }
+    .description{
+        width: 80%;
     }
     
 
