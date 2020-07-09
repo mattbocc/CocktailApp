@@ -180,6 +180,10 @@ drank.addEventListener('click', () => {
         imageBox.style.display = "block";
     }
 
+    if(search.placeholder != "Ex. Margarita, Old fashion, etc"){//change the search bar placeholder to the drink one
+        search.placeholder = "Ex. Margarita, Old fashion, etc";
+    }
+
     api = 'https://www.thecocktaildb.com/api/json/v1/1/random.php';
 
 });
@@ -568,9 +572,20 @@ button.addEventListener('click', () => {
 searchDrink.addEventListener('click', () => {
     searchDrink.classList.add("current-click");
     searchIngredient.classList.remove("current-click");
+
+    if(search.placeholder != "Ex. Margarita, Old fashion, etc"){//change the search bar placeholder to the drink one
+        search.placeholder = "Ex. Margarita, Old fashion, etc";
+    }
 })
 searchIngredient.addEventListener('click', () => {
     searchIngredient.classList.add("current-click");
     searchDrink.classList.remove("current-click");
+
+    if(search.placeholder != "Ex. Vodka, Gin, etc"){//change the search bar place holder to the ingredient one
+        search.placeholder = "Ex. Vodka, Gin, etc";
+    }
 })
+
+
+
 
